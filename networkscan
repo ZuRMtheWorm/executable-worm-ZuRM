@@ -1,0 +1,16 @@
+#!/bin/bash
+domain=$1
+
+if [[ "$domain" != "" ]]
+then
+is_alive_ping()
+{
+  ping -c 1 $1 > /dev/null
+  [ $? -eq 0 ] && echo $i
+}
+
+for i in "$domain".{1..254} 
+do
+is_alive_ping $i & disown 2> /dev/null
+done
+fi
