@@ -14,7 +14,8 @@ With that being said, it is recommended to execute ZuRM.sh with most Linux distr
 - You can then physically confirm that ZuRM has infected you other Linux VMs by checking their tmp folder for ZuRM.sh, networkscan, and bite.sh.
 
 ### Where users can get help with your project:
-Check the other file listed: ZuRM.sh, networkscan, bite.sh, and Network Topology. 
+- Check the other file listed: ZuRM.sh, networkscan, bite.sh, and Network Topology.
+- View a demo of ZuRM from the file ZuRM DEMO.
 
 ### Who maintains and contributes to the project:
 The creators of ZuRM are Tony Diaz & Julianna Diaz
